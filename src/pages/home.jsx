@@ -1,11 +1,11 @@
 import React from 'react'
-
-const home = () => {
+import Banner from '../components/UI/Banner'
+const Home = () => {
   return (
     <div>
-      
+      <Banner title="home" subtitle="it's a home" description="it's description"/>
     </div>
   )
 }
 
-export default home
+export default Home
